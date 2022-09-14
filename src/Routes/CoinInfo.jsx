@@ -15,7 +15,7 @@ const CoinInfo = () => {
         }).catch((err) => {
             console.log(err)
         })
-    }, [])
+    }, [params.coinId])
     
 
   return (
